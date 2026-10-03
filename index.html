@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="The portfolio of Your Name, a front-end developer building clear, thoughtful digital experiences.">
+		<meta name="theme-color" content="#f5f5ef">
+		<title>Personal Portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<a class="skip-link" href="#main">Skip to content</a>
+
+		<header class="site-header" id="top">
+			<a class="wordmark" href="#top" aria-label="Your Name, home">YN<span>.</span></a>
+			<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+				<span></span>
+				<span></span>
+			</button>
+			<nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+				<a href="#about">About</a>
+				<a href="#work">Selected work</a>
+				<a href="#skills">Skills</a>
+				<a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+			</nav>
+		</header>
+
+		<main id="main">
+			<section class="hero page-width" aria-labelledby="hero-title">
+				<div class="hero-copy">
+					<p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Available for select projects</p>
+					<h1 id="hero-title">Hello, I'm<br><span>Ahmed Altaf.</span></h1>
+					<p class="hero-intro">I build thoughtful, accessible websites that make the digital world feel a little more human.</p>
+					<div class="hero-actions">
+						<a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+						<a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+					</div>
+					<p class="hero-index"><span>01</span> / DESIGN-minded DEVELOPMENT</p>
+				</div>
+				<div class="hero-art" aria-label="A workspace ready for creative work">
+					<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Laptop and notebook on a bright, plant-filled desk">
+					<div class="image-caption"><span>IN THE STUDIO</span><span>01 / 04</span></div>
+					<div class="hero-sticker" aria-hidden="true">Curiosity<br>in, good<br>work out.</div>
+				</div>
+			</section>
+
+			<section class="about section-band" id="about" aria-labelledby="about-title">
+				<div class="page-width about-layout">
+					<p class="section-kicker">01 / A LITTLE INTRO</p>
+					<div class="about-content">
+						<h2 id="about-title">Good work starts with <span>good questions.</span></h2>
+						<div class="about-columns">
+							<p>I'm a front-end developer who cares about the details people feel, even when they don't notice them: a clear path through a page, a useful interaction, a layout that welcomes everyone.</p>
+							<p>I'm currently growing my practice in HTML, CSS, and JavaScript, and looking for the next interesting problem to solve. This portfolio is a snapshot of what I'm learning and making.</p>
+						</div>
+						<a class="text-link" href="#contact">More about working together <span aria-hidden="true">↗</span></a>
+					</div>
+				</div>
+			</section>
+
+			<section class="work page-width section-space" id="work" aria-labelledby="work-title">
+				<div class="section-heading">
+					<div>
+						<p class="section-kicker">02 / SELECTED WORK</p>
+						<h2 id="work-title">A few things<br><span>I've made.</span></h2>
+					</div>
+					<p class="section-aside">Small projects, thoughtful details.<br>More on the way.</p>
+				</div>
+				<div class="project-grid">
+					<article class="project-card">
+						<a class="project-image" href="#contact" aria-label="Ask me about the Fieldnotes project">
+							<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Sunlit shared workspace with a long table and greenery" loading="lazy">
+							<span class="project-number">01</span>
+							<span class="project-arrow" aria-hidden="true">↗</span>
+						</a>
+						<div class="project-meta"><span>WEB DESIGN / FRONT-END</span><span>2025</span></div>
+						<h3>Fieldnotes</h3>
+						<p>A calm home for a community garden's events, growing guides, and local stories.</p>
+						<ul class="tag-list" aria-label="Technologies used"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+					</article>
+					<article class="project-card">
+						<a class="project-image project-image-coral" href="#contact" aria-label="Ask me about the Good Measure project">
+							<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Analytics dashboard displayed on a laptop screen" loading="lazy">
+							<span class="project-number">02</span>
+							<span class="project-arrow" aria-hidden="true">↗</span>
+						</a>
+						<div class="project-meta"><span>UI DESIGN / PROTOTYPE</span><span>2025</span></div>
+						<h3>Good Measure</h3>
+						<p>A friendly dashboard concept that makes everyday energy use easier to understand.</p>
+						<ul class="tag-list" aria-label="Technologies used"><li>Figma</li><li>Responsive UI</li><li>Accessibility</li></ul>
+					</article>
+				</div>
+			</section>
+
+			<section class="skills section-band" id="skills" aria-labelledby="skills-title">
+				<div class="page-width skills-layout">
+					<div>
+						<p class="section-kicker">03 / MY TOOLKIT</p>
+						<h2 id="skills-title">Curious by nature.<br><span>Practical by design.</span></h2>
+					</div>
+					<ul class="skills-list">
+						<li>Semantic HTML</li>
+						<li>Modern CSS</li>
+						<li>Responsive design</li>
+						<li>JavaScript</li>
+						<li>Accessibility</li>
+						<li>Git &amp; GitHub</li>
+						<li>Figma</li>
+						<li>Clear communication</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="contact page-width section-space" id="contact" aria-labelledby="contact-title">
+				<div class="contact-intro">
+					<p class="section-kicker">04 / YOUR TURN</p>
+					<h2 id="contact-title">Have a good<br><span>one in mind?</span></h2>
+					<p>Tell me what you're working on. The best projects start with a conversation.</p>
+					<a class="contact-email" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+				</div>
+				<form class="contact-form" id="contact-form" data-email="hello@example.com">
+					<div class="form-row">
+						<label for="name">Ahmed Altaf</label>
+						<input id="name" name="name" autocomplete="name" required>
+					</div>
+					<div class="form-row">
+						<label for="email">Email address</label>
+						<input id="email" name="email" type="email" autocomplete="email" required>
+					</div>
+					<div class="form-row">
+						<label for="message">A little about your project</label>
+						<textarea id="message" name="message" rows="4" required></textarea>
+					</div>
+					<button class="button button-dark form-submit" type="submit">Open email draft <span aria-hidden="true">↗</span></button>
+					<p class="form-note" id="form-note" aria-live="polite">This opens a draft in your email app; nothing is sent from this page.</p>
+				</form>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="page-width footer-inner">
+				<a class="wordmark" href="#top" aria-label="Your Name, back to top">YN<span>.</span></a>
+				<p>Made with care, and a little bit of curiosity.</p>
+				<a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+				<small>© <span id="year">2025</span> Ahmed Altaf</small>
+			</div>
+		</footer>
+	</body>
+</html>
